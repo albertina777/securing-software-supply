@@ -7,4 +7,4 @@ patches:
   patch: |-
     - op: replace
       path: /spec/template/spec/containers/0/image
-      value:   "quay.apps.cluster-9ktkv.9ktkv.sandbox2699.opentlc.com/quayadmin/globex-ui:main-93cc339f426c05862bdb2b69d4fbb4fa353626dd"
+      value:    "quay.apps.cluster-9ktkv.9ktkv.sandbox2699.opentlc.com/quayadmin/globex-ui:main-93cc339f426c05862bdb2b69d4fbb4fa353626dd"
