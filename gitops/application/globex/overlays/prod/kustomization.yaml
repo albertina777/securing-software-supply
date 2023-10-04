@@ -7,4 +7,4 @@ patches:
   patch: |-
     - op: replace
       path: /spec/template/spec/containers/0/image
-      value: "{{ _internal_globex_ui_prod_image }}"
+      value: "quay.apps.cluster-9ktkv.9ktkv.sandbox2699.opentlc.com/quayadmin/globex-ui:app-mod-workshop"
