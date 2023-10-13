@@ -2,6 +2,9 @@ resources:
 - ../../base
 
 patches:
+- path: traffic-routing.yaml
+  target:
+    kind: Service
 - target:
     kind: Service
   patch: |-
