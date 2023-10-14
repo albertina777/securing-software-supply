@@ -1,9 +1,9 @@
 - op: add
   path: /spec/traffic
   value:
-    - revisionName: eventingsvc-00001
+    - revisionName: eventingsc-00001
       percent: 30
-    - revisionName: eventingsvc-00002
+    - revisionName: eventingsc-00002
       percent: 40
-    - revisionName: eventingsvc-00003
+    - revisionName: eventingsc-00003
       percent: 30
