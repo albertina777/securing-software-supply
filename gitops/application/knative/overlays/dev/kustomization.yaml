@@ -10,4 +10,4 @@ patches:
   patch: |-
     - op: replace
       path: /spec/template/spec/containers/0/image
-      value:            "quay.apps.cluster-95l2f.95l2f.sandbox2269.opentlc.com/quayadmin/devsecops:main-mandyye7yr7he7dhe8"
+      value:             "quay.apps.cluster-95l2f.95l2f.sandbox2269.opentlc.com/quayadmin/devsecops:main-73736373733"
