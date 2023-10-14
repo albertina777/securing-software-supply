@@ -2,6 +2,7 @@ apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
   name: eventingsv
+  namespace: aws-dev-cluster
 spec:
   template:
     metadata:
@@ -9,4 +10,4 @@ spec:
         autoscaling.knative.dev/target: "1"
     spec:
       containers:
-      - image: quay.apps.cluster-kfdwd.kfdwd.sandbox1247.opentlc.com/quayadmin/devsecops:main-7h36db3y6bdyeb
+      - image: quay.apps.cluster-jwx8g.jwx8g.sandbox3014.opentlc.com/quayadmin/devsecops:main-mandyye7yr7he7dhe8
