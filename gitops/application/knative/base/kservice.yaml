@@ -7,6 +7,7 @@ spec:
   template:
     metadata:
       annotations:
+        sidecar.istio.io/inject: "true"
         autoscaling.knative.dev/target: "1"
     spec:
       containers:
