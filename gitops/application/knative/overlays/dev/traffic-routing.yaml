@@ -2,6 +2,8 @@
   path: /spec/traffic
   value:
     - revisionName: eventingsc-00001
-      percent: 50
+      percent: 40
     - revisionName: eventingsc-00002
-      percent: 50
+      percent: 30
+    - revisionName: eventingsc-00003
+      percent: 30
